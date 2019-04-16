@@ -1,0 +1,80 @@
+#btn{
+  margin-top: 10px;
+  margin-left: 60px;
+}
+#jump{
+  margin-top: 18px;
+  margin-left: 60px;
+}
+#page-wrap{
+  0height: 143px;
+  width: 600px;
+  overflow: hidden;
+}
+.next{
+  margin-top: 12px;
+}
+
+#mutipart,#part3,#reexamtype3,#reexamtype2,#portfoliopanel3,#certificationpanel3,#portfoliopanel2,#certificationpanel2,#portfoliopanel,#certificationpanel{
+  background-color: transparent;
+  display: none;
+}
+#interviewpanel3,#testpanel3,#otherpanel3,#interviewpanel,#testpanel,#otherpanel,#interviewpanel2,#testpanel2,#otherpanel2{
+  background-color: transparent;
+  display: none;
+}
+#QA1,#QA2,#QA3{
+  background-color: red;
+  display: none;
+}
+#TQA31,#TQA32,#TQA33,#TQA1,#TQA2,#TQA3,#TQA21,#TQA22,#TQA23{
+  background-color: transparent;
+  display: none;
+}
+#QA31,#QA32,#QA33,#QA1,#QA2,#QA3,#QA21,#QA22,#QA23{
+  background-color: transparent;
+  display: none;
+}
+<style type="text/css">
+    body{
+        font-family: Arail, sans-serif;
+    }
+    /* Formatting search box */
+    .search-box{
+        width: 300px;
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+    }
+    .search-box input[type="text"]{
+        height: 32px;
+        padding: 5px 10px;
+        border: 1px solid #CCCCCC;
+        font-size: 14px;
+    }
+    .result{
+        position: absolute;        
+        z-index: 999;
+        top: 100%;
+        left: 0;
+    }
+    .search-box input[type="text"], .result{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    /* Formatting result items */
+    .result p{
+        margin: 0;
+        padding: 7px 10px;
+        border: 1px solid #CCCCCC;
+        border-top: none;
+        cursor: pointer;
+
+        background-color: white;
+
+    }
+    .result p:hover{
+        background: #f2f2f2;
+    }
+</style>
+    
